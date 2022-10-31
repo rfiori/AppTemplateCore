@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>A full catalog is coming soon.</p>
+
+    @if (PermissionHelper.ValidateAdmin_FullPerm())
+    {
+        <div class="rounded bg-warning fw-bold fs-4">
+            This content will showed olny for Admin and his Claims permission was verified.
+        </div>
+    }
+</div>
