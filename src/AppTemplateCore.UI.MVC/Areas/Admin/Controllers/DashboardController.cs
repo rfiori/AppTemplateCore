@@ -6,7 +6,7 @@ namespace AppTemplateCore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(policy: ClaimName.ADMIN)]
-    public class Dashboard : Controller
+    public class DashboardController : Controller
     {
         public IActionResult Index()
         {
