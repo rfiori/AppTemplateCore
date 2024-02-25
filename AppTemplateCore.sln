@@ -17,11 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9- CrossCutting", "9- Cross
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99- Test", "99- Test", "{D818EA2A-CC5A-4D13-912C-73D4A3A3CAD4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTemplateCore", "AppTemplateCore.UI.MVC\AppTemplateCore.csproj", "{698A9CB0-830B-4F8F-8A25-B73E1EB25700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTemplateCore.UI.MVC", "src\AppTemplateCore.UI.MVC\AppTemplateCore.UI.MVC.csproj", "{698A9CB0-830B-4F8F-8A25-B73E1EB25700}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTemplateCore.CrossCutting.Identity", "AppTemplateCore.CrossCutting.Identity\AppTemplateCore.CrossCutting.Identity.csproj", "{374B6E6D-515F-4083-BE18-3D6A7FC142D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTemplateCore.CrossCutting.Identity", "src\AppTemplateCore.CrossCutting.Identity\AppTemplateCore.CrossCutting.Identity.csproj", "{374B6E6D-515F-4083-BE18-3D6A7FC142D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTemplateCore.CrossCutting.Shared", "AppTemplateCore.CrossCutting.Shared\AppTemplateCore.CrossCutting.Shared.csproj", "{82D426C8-D4DD-4E3F-82F9-8C4193DB0E6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTemplateCore.CrossCutting.Shared", "src\AppTemplateCore.CrossCutting.Shared\AppTemplateCore.CrossCutting.Shared.csproj", "{82D426C8-D4DD-4E3F-82F9-8C4193DB0E6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
