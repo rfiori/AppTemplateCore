@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTemplateCore.CrossCuttin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTemplateCore.CrossCutting.Shared", "src\AppTemplateCore.CrossCutting.Shared\AppTemplateCore.CrossCutting.Shared.csproj", "{82D426C8-D4DD-4E3F-82F9-8C4193DB0E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTemplateCore.Domain", "src\AppTemplateCore.Domain\AppTemplateCore.Domain.csproj", "{B6A2CC2E-2D0F-438F-8C37-C8B25D665EAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{82D426C8-D4DD-4E3F-82F9-8C4193DB0E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82D426C8-D4DD-4E3F-82F9-8C4193DB0E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82D426C8-D4DD-4E3F-82F9-8C4193DB0E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A2CC2E-2D0F-438F-8C37-C8B25D665EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A2CC2E-2D0F-438F-8C37-C8B25D665EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A2CC2E-2D0F-438F-8C37-C8B25D665EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A2CC2E-2D0F-438F-8C37-C8B25D665EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{698A9CB0-830B-4F8F-8A25-B73E1EB25700} = {910EF4C3-49B1-4541-9BFB-B3BC4CCF4BEB}
 		{374B6E6D-515F-4083-BE18-3D6A7FC142D9} = {7D7F60CC-2828-4E79-A6B5-1B67AADE1DBF}
 		{82D426C8-D4DD-4E3F-82F9-8C4193DB0E6A} = {7D7F60CC-2828-4E79-A6B5-1B67AADE1DBF}
+		{B6A2CC2E-2D0F-438F-8C37-C8B25D665EAF} = {2CC84E0D-3A60-4F5A-9A68-2D609BFC254C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B2BC582-E762-4C16-840C-EC6EA0F04586}
